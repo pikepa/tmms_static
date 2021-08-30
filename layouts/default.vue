@@ -8,10 +8,15 @@
         leave-class="opacity-100"
         leave-to-class="opacity-0"
         >
-        <MobileMenu v-show="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
+      <MobileMenu v-show="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
       </transition>
-    <MainHeader @showMobileMenu="showMobileMenu = true" v-show="!showMobileMenu"/>
-    <div class="h-screen flex">
+      <div class="bg-white fixed flex  h-16 w-full max-w-6xl z-10 border-b-2 border-gray-500">
+         <MainHeader @showMobileMenu="showMobileMenu = true" />
+      </div>
+
+        v-show="!showMobileMenu"/>
+
+    <div class="flex">
       <DesktopSidebar class="hidden md:flex"/>
       <Nuxt class="mt-24 px-6 flex-1"/>
     </div>

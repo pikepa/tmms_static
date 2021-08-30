@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1 class="text-3xl font-semibold text-gray-900 pb-8">
+    <h1 class="text-4xl font-bold text-gray-900 pb-8">
       {{ doc.title }}
     </h1>
-    <NuxtContent :document="doc" class="prose"/>
+    <NuxtContent :document="doc" class="prose prose-2xl text-justify"/>
   </div>
 </template>
 
