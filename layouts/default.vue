@@ -10,14 +10,14 @@
         >
       <MobileMenu v-show="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
       </transition>
-      <div class="bg-white fixed flex  h-16 w-full max-w-6xl z-10 border-b-2 border-gray-500">
+      <div class=" fixed flex  h-16 w-full max-w-6xl z-10 border-b-2 border-gray-500">
          <MainHeader @showMobileMenu="showMobileMenu = true" />
       </div>
 
         v-show="!showMobileMenu"/>
 
-    <div class="flex">
-      <DesktopSidebar class="hidden md:flex"/>
+    <div class="flex bg-red-100">
+      <DesktopSidebar class="bg-blue-200 hidden md:flex"/>
       <Nuxt class="mt-24 px-6 flex-1"/>
     </div>
 

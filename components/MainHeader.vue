@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white fixed flex  h-16 w-full max-w-6xl z-10 border-b-2 border-gray-500">
+  <div class="bg-white fixed flex  h-16 container z-10 border-b-2 border-gray-500">
       <!--   Mobile Hamburger  -->
       <button class="md:hidden p-6 cursor-pointer" @click="showMobileMenu">
         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -8,13 +8,15 @@
       </button>
 
       <div class="flex-1 px-4 flex items-center justify-between">
-          <div class="flex flex-shrink" >
-            <!-- Logo -->
-                  <Home class="h-8 w-8 hidden md:flex"/>
-          </div>
-          <div>
-            <!-- search -->
-              <input  class="border p-2 rounded border-gray-600 w-64" placeholder="Search here" >
+          <div class="flex items-center justify-start">
+              <div class="mx-2" >
+              <!-- Logo -->
+                    <Home class=" h-8 w-8 hidden md:flex"/>
+              </div>
+              <div class="ml-40">
+                <!-- search -->
+                  <input  class="border p-2 rounded border-gray-600 w-64" placeholder="Search here" >
+              </div>
           </div>
             <!-- icons -->
           <div>
