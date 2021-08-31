@@ -16,9 +16,9 @@
 
         v-show="!showMobileMenu"/>
 
-    <div class="flex bg-red-100">
-      <DesktopSidebar class="bg-blue-200 hidden md:flex"/>
-      <Nuxt class="mt-24 px-6 flex-1"/>
+    <div class="flex">
+      <DesktopSidebar class=" hidden md:flex"/>
+      <Nuxt class="mt-20 px-6 flex-1"/>
     </div>
 
   </div>

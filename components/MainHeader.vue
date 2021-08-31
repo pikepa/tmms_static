@@ -13,7 +13,7 @@
               <!-- Logo -->
                     <Home class=" h-8 w-8 hidden md:flex"/>
               </div>
-              <div class="ml-40">
+              <div class="md:ml-40">
                 <!-- search -->
                   <input  class="border p-2 rounded border-gray-600 w-64" placeholder="Search here" >
               </div>
