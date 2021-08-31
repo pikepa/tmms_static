@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white fixed flex  h-16 container z-10 border-b-2 border-gray-500">
+  <div class="bg-white fixed flex  h-16 container z-10 border-b-2 border-gray-300">
       <!--   Mobile Hamburger  -->
       <button class="md:hidden p-6 cursor-pointer" @click="showMobileMenu">
         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
