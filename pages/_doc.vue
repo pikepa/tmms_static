@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-4xl mt-6 font-bold text-gray-900 pb-8">
+    <h1 class="pb-8 mt-6 text-4xl font-bold text-gray-900">
       {{ doc.title }}
     </h1>
     <NuxtContent :document="doc" class="prose prose-2xl text-justify"/>

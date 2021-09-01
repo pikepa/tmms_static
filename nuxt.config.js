@@ -40,6 +40,14 @@ export default {
     '@nuxt/content',
   ],
 
+  generate: {
+    async ready () {
+      const { $content } = require('@nuxt/content')
+      const files = await $content().only(['slug']).fetch()
+      console.log(files)
+    }
+  },
+
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
