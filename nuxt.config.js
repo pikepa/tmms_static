@@ -47,7 +47,7 @@ export default {
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    "nuxt generate --output public"
-  }
+  // build: {
+  //   "nuxt generate --output public"
+  // }
 }
