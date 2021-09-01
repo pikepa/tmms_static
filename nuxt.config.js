@@ -29,7 +29,6 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
   ],
 
@@ -41,14 +40,6 @@ export default {
     '@nuxt/content',
   ],
 
-  // generate: {
-  //   async ready () {
-  //     const { $content } = require('@nuxt/content')
-  //     const files = await $content().only(['slug']).fetch()
-  //     console.log(files)
-  //   }
-  // },
-
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
@@ -56,7 +47,3 @@ export default {
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  // build: {
-  //   "nuxt generate --output public"
-  // }
-}
