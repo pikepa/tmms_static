@@ -11,10 +11,11 @@
       <MobileMenu v-show="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
       </transition>
       <div class=" fixed flex  h-16 w-full max-w-6xl z-10 border-b-2 border-gray-500">
-         <MainHeader @showMobileMenu="showMobileMenu = true" />
+         <MainHeader
+          @showMobileMenu="showMobileMenu = true"
+          v-show="!showMobileMenu"/>
       </div>
 
-        v-show="!showMobileMenu"/>
 
     <div class="flex">
       <DesktopSidebar class=" hidden md:flex"/>
