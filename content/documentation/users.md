@@ -1,5 +1,5 @@
 ---
-title:  User access to TMMS
+title:  User Access
 description: Managing Users
 extends: _layouts.documentation
 section: content

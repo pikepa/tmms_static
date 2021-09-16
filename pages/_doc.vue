@@ -17,5 +17,10 @@ export default {
     const doc = await $content('documentation', params.doc).fetch()
     return { doc }
   },
+  head() {
+    return {
+      title: 'TMMS | ' + this.doc.title,
+    }
+  },
 }
 </script>

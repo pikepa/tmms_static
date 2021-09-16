@@ -1,5 +1,5 @@
 ---
-title: The Really Simple Guide
+title: Quick Start Guide
 author: PAP
 ---
 

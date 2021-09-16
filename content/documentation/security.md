@@ -1,5 +1,5 @@
 ---
-title: Quickbase Security
+title: Security
 author: PAP
 ---
 
