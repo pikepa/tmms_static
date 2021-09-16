@@ -6,6 +6,10 @@
       <DocsContentsLink to="security" title="Security"></DocsContentsLink>
       <DocsContentsLink to="users" title="User Access"></DocsContentsLink>
       <DocsContentsLink to="roles" title="User Roles"></DocsContentsLink>
+      <DocsContentsLink
+        to="getting-started"
+        title="Quick Start Guide"
+      ></DocsContentsLink>
     </div>
     <h3 class="py-3 font-bold text-gray-700 uppercase">Purchase Orders</h3>
     <DocsContentsLink to="doa" title="The DOA"></DocsContentsLink>

@@ -4,7 +4,7 @@ author: PAP
 ---
 
 ### How do DOA's work in TMMS?
-In TMMS delegations of authority are set up using $ value ranges for a position within the organisation. They are set up to ensure that only someone with the appropriate authority can approve a Purchase Order.
+In TMMS, delegations of authority are set up using $ value ranges for a position within the organisation. They are set up to ensure that only someone with the appropriate authority can approve a Purchase Order.
 
 A DOA can be set up either for the organisation as a whole, or for specific business units.
 

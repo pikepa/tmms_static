@@ -23,8 +23,12 @@ The following listed and described roles are the main ones used in TMMS:
 * Buyers
 * Finance
 * Senior Management
-
 Others may be added at a later date....
+
+The following diagram illustrates the part each role plays within the overall process flow from Requisition to Approved Purchase order
+![DOA 01 Image](/images/process/ProcessOverview.jpeg)
+
+
 ### Material Requisitioner
 A Material Requisitioner is the instigator of the TMMS process. This role is granted permission to Create, edit their own Material / Service Requests and Submit them to their Business Unit Manager for approval or (in the case where indicated in the Business Unit table) to their Team leader to submit after review for approval by Business Unit Manager. 
 
