@@ -3,7 +3,7 @@
     <div class="text-base">
       <h3 class="py-3 font-bold text-gray-700 uppercase">TMMS Documentation</h3>
       <nuxt-link
-        to="doc-example"
+        to="features"
         class="flex items-center pb-3 pr-5 text-gray-600 hover:text-gray-700"
       >
         Features
