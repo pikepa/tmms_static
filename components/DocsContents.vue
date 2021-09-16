@@ -5,7 +5,7 @@
       <DocsContentsLink to="features" title="Features"></DocsContentsLink>
       <DocsContentsLink to="security" title="Security"></DocsContentsLink>
       <DocsContentsLink to="users" title="User Access"></DocsContentsLink>
-      <DocsContentsLink to="Roles" title="User Roles"></DocsContentsLink>
+      <DocsContentsLink to="roles" title="User Roles"></DocsContentsLink>
     </div>
   </div>
 </template>
