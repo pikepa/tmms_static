@@ -6,7 +6,7 @@
         <img
           src="/images/tmms_logo.png"
           alt="TMMS Logo"
-          width="150"
+          width="200"
           class="flex mx-auto mt-8"
         />
 
