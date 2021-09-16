@@ -1,45 +1,43 @@
 <template>
   <div class="flex flex-col items-center p-4 mx-auto">
-    <div class="text-4xl text-center">
-      <h1>Welcome to the world of Peter Pike</h1>
+    <div class="mt-8 text-4xl text-center">
+      <h1>Welcome to the TMMS Documentation</h1>
     </div>
     <div class="mt-4 prose prose-2xl text-justify">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Consectetur
-        adipiscing elit ut aliquam. Facilisis gravida neque convallis a.
-        Bibendum est ultricies integer quis auctor. Phasellus vestibulum lorem
-        sed risus ultricies tristique nulla aliquet. Dis parturient montes
-        nascetur ridiculus. Arcu bibendum at varius vel pharetra vel turpis
-        nunc. Arcu cursus euismod quis viverra nibh. Malesuada bibendum arcu
-        vitae elementum curabitur vitae nunc sed. Sit amet luctus venenatis
-        lectus magna. Ac placerat vestibulum lectus mauris ultrices eros in.
-        Aliquet risus feugiat in ante metus dictum. Scelerisque mauris
-        pellentesque pulvinar pellentesque habitant morbi tristique senectus et.
-        Facilisi morbi tempus iaculis urna id. Vitae congue eu consequat ac
-        felis donec et odio. Mi eget mauris pharetra et. Vel quam elementum
-        pulvinar etiam non quam lacus. Blandit cursus risus at ultrices mi
-        tempus imperdiet nulla. Tempus egestas sed sed risus. Magna ac placerat
-        vestibulum lectus mauris ultrices eros in cursus.
+        The 'Total Material Management System' (TMMS) is a full supply chain
+        management system which allows an Organisation to track the full
+        lifecycle of an item of Inventory from it's initial Request by a user
+        until it's ultimate disposal or right off from inventory.
       </p>
+      <p>This process includes the management / recording of :</p>
+      <ul>
+        <li>Catalogue of Standard Items,</li>
+        <li>Multiple Sites / Operations,</li>
+        <li>Use of Roles to Manage access,</li>
+        <li>Material Requests,</li>
+        <li>Service Requests,</li>
+        <li>Requests for Quotation,</li>
+        <li>Purchase Orders and approvals based on DOA</li>
+        <li>Invoice Registration for on-line approvals,</li>
+        <li>Freight Consignment Notes,</li>
+        <li>Inventory Management including:</li>
+        <div class="ml-12">
+          <ul>
+            <li>Multiple Warehouses,</li>
+            <li>Receiving,</li>
+            <li>Transfers,</li>
+            <li>Issues and Adjustments,</li>
+            <li>Asset Recording and Serial Nos,</li>
+            <li>Issues from Bulk Storage</li>
+          </ul>
+        </div>
+      </ul>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Consectetur
-        adipiscing elit ut aliquam. Facilisis gravida neque convallis a.
-        Bibendum est ultricies integer quis auctor. Phasellus vestibulum lorem
-        sed risus ultricies tristique nulla aliquet. Dis parturient montes
-        nascetur ridiculus. Arcu bibendum at varius vel pharetra vel turpis
-        nunc. Arcu cursus euismod quis viverra nibh. Malesuada bibendum arcu
-        vitae elementum curabitur vitae nunc sed. Sit amet luctus venenatis
-        lectus magna. Ac placerat vestibulum lectus mauris ultrices eros in.
-        Aliquet risus feugiat in ante metus dictum. Scelerisque mauris
-        pellentesque pulvinar pellentesque habitant morbi tristique senectus et.
-        Facilisi morbi tempus iaculis urna id. Vitae congue eu consequat ac
-        felis donec et odio. Mi eget mauris pharetra et. Vel quam elementum
-        pulvinar etiam non quam lacus. Blandit cursus risus at ultrices mi
-        tempus imperdiet nulla. Tempus egestas sed sed risus. Magna ac placerat
-        vestibulum lectus mauris ultrices eros in cursus.
+        The system is entirely internet based and was developed with the Oil
+        industry in mind, and specifically for SMEs operating in remote areas.
       </p>
+      <p>.</p>
     </div>
   </div>
 </template>

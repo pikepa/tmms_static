@@ -1,19 +1,11 @@
 <template>
   <div>
-    <div class="text-base">
-      <h3 class="py-3 font-bold text-gray-700 uppercase">TMMS Documentation</h3>
-      <nuxt-link
-        to="features"
-        class="flex items-center pb-3 pr-5 text-gray-600 hover:text-gray-700"
-      >
-        Features
-      </nuxt-link>
-      <nuxt-link
-        to="you-tube-example"
-        class="flex items-center pb-3 pr-5 text-gray-600 hover:text-gray-700"
-      >
-        YouTube Example
-      </nuxt-link>
+    <h3 class="py-3 font-bold text-gray-700 uppercase">TMMS</h3>
+    <div class="ml-4">
+      <DocsContentsLink to="features" title="Features"></DocsContentsLink>
+      <DocsContentsLink to="security" title="Security"></DocsContentsLink>
+      <DocsContentsLink to="users" title="User Access"></DocsContentsLink>
+      <DocsContentsLink to="Roles" title="User Roles"></DocsContentsLink>
     </div>
   </div>
 </template>
