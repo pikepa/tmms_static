@@ -12,7 +12,7 @@
 
         <!-- <ExternalLinks class="flex-col pt-12" /> -->
 
-        <DocsContents />
+        <DocsContents class="pl-8" />
       </div>
     </div>
   </div>
